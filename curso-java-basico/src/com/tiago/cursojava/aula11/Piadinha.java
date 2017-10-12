@@ -10,6 +10,8 @@ public class Piadinha {
 		int Dec25 = 25;
 		
 		System.out.println(Oct31 == Dec25);
+		
+		//ha ha ha
 
 	}
 
