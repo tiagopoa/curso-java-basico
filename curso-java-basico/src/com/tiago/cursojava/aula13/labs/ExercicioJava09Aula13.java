@@ -1,8 +1,8 @@
-package com.tiago.cursojava.aula13;
+package com.tiago.cursojava.aula13.labs;
 
 import java.util.Scanner;
 
-public class Exercicio09Aula13 {
+public class ExercicioJava09Aula13 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,8 +1,8 @@
-package com.tiago.cursojava.aula13;
+package com.tiago.cursojava.aula13.labs;
 
 import java.util.Scanner;
 
-public class Exercicio10Aula13 {
+public class ExercicioJava10Aula13 {
 	
 	//Faça um programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit.
 	

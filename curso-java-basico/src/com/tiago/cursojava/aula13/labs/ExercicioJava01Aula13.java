@@ -1,4 +1,4 @@
-package com.tiago.cursojava.aula13;
+package com.tiago.cursojava.aula13.labs;
 
 public class ExercicioJava01Aula13 {
 

@@ -1,4 +1,4 @@
-package com.tiago.cursojava.aula13;
+package com.tiago.cursojava.aula13.labs;
 
 import java.util.Scanner;
 
@@ -14,9 +14,9 @@ public class ExercicioJava08Aula13 {
 		double valorPorHora = scan.nextDouble();
 		
 		System.out.println("Quantas horas você trabalha por mês? ");
-		double horastrabalhadasPorMes = scan.nextDouble();
+		double horasTrabalhadasPorMes = scan.nextDouble();
 		
-		System.out.println("O salário total do mês será: " + valorPorHora * horastrabalhadasPorMes);
+		System.out.println("O salário total do mês será: " + valorPorHora * horasTrabalhadasPorMes);
 		
 	}
 
