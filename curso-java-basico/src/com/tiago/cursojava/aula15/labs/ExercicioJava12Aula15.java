@@ -44,8 +44,8 @@ public class ExercicioJava12Aula15 {
 		System.out.println("(-) IR (" + percentualImpostoRenda + "%)          : R$ " + impostoRenda);
 		System.out.println("(-) INSS (" + percentualInss + "%)          : R$ " + descontoInss);
 		System.out.println("FGTS (" + percentualFgts + "%)          : R$ " + descontoFgts);
-	    System.out.println("Total de descontos          : R$ " + totalDescontos);
-	    System.out.println("Salário Líquido          : R$ " + salarioLiquido);
+		System.out.println("Total de descontos          : R$ " + totalDescontos);
+		System.out.println("Salário Líquido          : R$ " + salarioLiquido);
 	}
 
 }
