@@ -11,7 +11,6 @@ public class ExercicioJava22Aula15 {
 		
 		double valorMorango = 0;
 		double valorMaca = 0;
-		double valorTotalCompra = 0;
 		
 		System.out.println("Fruteira Tabajara\n               Até 5kg               Acima de 5kg\nMorango      R$ 2,50 por kg          R$ 2,20 por kg\nMaçã         R$ 1,80 por kg          R$ 1,50 por kg");
 		System.out.println("Quantos kg de Morango?");
@@ -36,11 +35,10 @@ public class ExercicioJava22Aula15 {
 		double valorTotalMaca = kgMaca * valorMaca;
 		
 		double valorCompra = valorTotalMaca + valorTotalMorango;
+		double valorTotalCompra = valorCompra;
 		
 		if (kgMaca + kgMorango > 8 || valorCompra > 25) {
 			valorTotalCompra = valorCompra - ((valorCompra * 10) / 100);
-		} else {
-			valorTotalCompra = valorCompra;
 		}
 		
 		System.out.println("Valor total a pagar: R$" + valorTotalCompra);

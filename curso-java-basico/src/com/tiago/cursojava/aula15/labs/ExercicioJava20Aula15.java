@@ -47,7 +47,7 @@ public class ExercicioJava20Aula15 {
 		switch (contador) {
 		case 1: System.out.println("INOCENTE"); break;
 		case 2: System.out.println("SUSPEITO"); break;
-		case 3: System.out.println("CUMPLICE"); break;
+		case 3: 
 		case 4: System.out.println("CUMPLICE"); break;
 		case 5: System.out.println("ASSASSINO"); break;
 		}

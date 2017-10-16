@@ -17,22 +17,17 @@ public class ExercicioJava11Aula15 {
 		int percentual = 0;
 		
 		if (salario <= 280) {
-			percentual = 20;
-			valorAumento = (salario*percentual/100);
-			novoSalario = salario + valorAumento;			
+			percentual = 20;		
 		} else if (salario > 280 && salario < 700) {
-			percentual = 15;
-			valorAumento = (salario*percentual/100);
-			novoSalario = salario + valorAumento;			
+			percentual = 15;			
 		} else if (salario >= 700 && salario < 1500) {
-			percentual = 10;
-			valorAumento = (salario*percentual/100);
-			novoSalario = salario + valorAumento;			
+			percentual = 10;			
 		} else if (salario >= 1500) {
-			percentual = 5;
-			valorAumento = (salario*percentual/100);
-			novoSalario = salario + valorAumento;			
+			percentual = 5;			
 		}
+		
+		valorAumento = (salario / 100) * percentual;
+		novoSalario = salario + valorAumento;
 		
 		System.out.println("Salário antes do reajuste: " + salario + "\nPercentual de aumento aplicado : " + percentual + "\nValor do aumento: " + valorAumento + "\nNovo Salário: " + novoSalario);
 

@@ -10,17 +10,20 @@ public class ExercicioJava10Aula15 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Em qual turno voce estuda? \nM - Matutino\nV- Vespertino\nN - Noturno");
-		char turno = scan.next().charAt(0);
+		String turno = scan.next();
 		
-		if (turno == 'm' || turno == 'M') {
+		if (turno.length() > 1) {
+			System.out.println("Turno digitado inválido");
+		} else if (turno.equalsIgnoreCase("m")) {
 			System.out.println("Bom dia!");
-		} else if (turno == 'v' || turno == 'V') {
+		} else if (turno.equalsIgnoreCase("v")) {
 			System.out.println("Boa tarde!");
-		} else if (turno == 'n' || turno == 'N') {
+		} else if (turno.equalsIgnoreCase("n")) {
 			System.out.println("Boa noite!");
 		} else {
 			System.out.println("Valor inválido");
 		}
+	
 
 	}
 

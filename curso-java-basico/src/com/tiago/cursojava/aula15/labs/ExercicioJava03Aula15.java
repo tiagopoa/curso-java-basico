@@ -10,13 +10,13 @@ public class ExercicioJava03Aula15 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("digite o sexo (F ou M)");
-		char sexo = scan.next().charAt(0);
+		String sexo = scan.next();
 		
 		//System.out.println(sexo);
 		
-		if ((sexo == 'f') || (sexo == 'F')) {
+		if (sexo.equalsIgnoreCase("f")) {
 			System.out.println("F - Feminino");
-		} else if (sexo == 'm' || sexo == 'M') {
+		} else if (sexo.equalsIgnoreCase("m")) {
 			System.out.println("M - Masculino");
 		} else {
 			System.out.println("Sexo inválido");

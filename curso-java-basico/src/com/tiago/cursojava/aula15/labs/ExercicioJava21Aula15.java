@@ -10,8 +10,6 @@ public class ExercicioJava21Aula15 {
 		Scanner scan = new Scanner(System.in);
 		
 		int desconto = 0;
-		//double gasolina = 4;
-		//double alcool = 3.5;
 		double valorLitro = 0;
 		
 		System.out.println("Qual combustível?\nA - Alcool\nG - Gasolina ");

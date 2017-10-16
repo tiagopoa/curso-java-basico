@@ -29,6 +29,8 @@ public class ExercicioJava15Aula15 {
 		} else {
 			System.out.println("Os valores informados não formam um triangulo.");
 			}
+		
+		
 
 	}
 

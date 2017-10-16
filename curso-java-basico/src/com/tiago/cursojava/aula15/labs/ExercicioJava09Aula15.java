@@ -22,27 +22,27 @@ public class ExercicioJava09Aula15 {
 		int menor = 0;
 		int meio = 0;
 		
-		if (num1 > num2 && num1 > num3) {
+		if (num1 >= num2 && num1 >= num3) {
 			maior = num1;
-		} else if (num2 > num1 && num2 > num3) {
+		} else if (num2 >= num1 && num2 >= num3) {
 			maior = num2;
-		} else if (num3 > num2 && num3 > num1) {
+		} else if (num3 >= num2 && num3 >= num1) {
 			maior = num3;
 		}
 		
-		if (num1 < num2 && num1 < num3) {
+		if (num1 <= num2 && num1 <= num3) {
 			menor = num1;
-		} else if (num2 < num1 && num2 < num3) {
+		} else if (num2 <= num1 && num2 <= num3) {
 			menor = num2;
-		} else if (num3 < num2 && num3 < num1) {
+		} else if (num3 <= num2 && num3 <= num1) {
 			menor = num3;
 		}
 		
-		if ((num1 > num2 && num1 < num3) || (num1 > num3 && num1 < num2)) {
+		if ((num1 >= num2 && num1 <= num3) || (num1 >= num3 && num1 <= num2)) {
 			meio = num1;
-		} else if ((num2 > num1 && num2 < num3) || (num2 > num3 && num2 < num1)){
+		} else if ((num2 >= num1 && num2 <= num3) || (num2 >= num3 && num2 <= num1)){
 			meio = num2;
-		} else if ((num3 > num2 && num3 < num1) || (num3 > num1 && num3 < num2)){
+		} else if ((num3 >= num2 && num3 <= num1) || (num3 >= num1 && num3 <= num2)){
 			meio = num3;
 		}
 		
