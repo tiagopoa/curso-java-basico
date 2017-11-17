@@ -9,7 +9,7 @@ public class ExercicioJava29Aula17 {
 		
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Digite um numero para saber se ele é primo: ");
+		System.out.println("Digite um numero para saber quais são todos os números primos entre 1 e o valor digitado: ");
 		int num = scan.nextInt();
 		
 		for (int i = 1; i <= num; i++) {
