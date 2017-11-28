@@ -7,7 +7,7 @@ public class ExercicioJava24Aula19 {
 	public static void main(String[] args) {
 
 
-		int[] a = new int[3];		
+		int[] a = new int[6];		
 		boolean palindromo = false;
 		
 		while (palindromo == false) {
