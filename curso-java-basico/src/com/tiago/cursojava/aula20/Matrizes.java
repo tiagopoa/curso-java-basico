@@ -10,18 +10,20 @@ public class Matrizes {
 
 		double[][] notasAlunos = new double[30][4];
 		
-		Random gerador = new Random();
+		double start = 4;
+		double end = 10;	
 		
-		for (int i = 0; i <= 29; i++) {
-			for (int k = 0; k <= 3; k++) {
-				notasAlunos[i][k] = gerador.nextDouble();
-				//System.out.println(i + " " + k);
+		for (int i = 0; i < notasAlunos.length; i++) {
+			for (int k = 0; k < notasAlunos[k].length; k++) {
+				double random = new Random().nextDouble();
+				double result = start + (random * (end - start));
+				notasAlunos[i][k] = result;
 			}
 		}
 
-		for (int i = 0; i <= 29; i++) {
-			System.out.println("\n\nAluno " + (i+1) + ": ");
-			for (int k = 0; k <= 3; k++) {
+		for (int i = 0; i < notasAlunos.length; i++) {
+			System.out.print("\n\nAluno " + (i+1) + ": ");
+			for (int k = 0; k < notasAlunos[k].length; k++) {
 				System.out.print(notasAlunos[i][k] + "	");
 			}
 		}
