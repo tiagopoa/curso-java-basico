@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="exercicios/Sockets_UDP_Exemplo/|Client/src/|MultiClientServer/src/|exercicios/SocketTCP/" kind="src" path=""/>
+	<classpathentry kind="src" path="Client/src"/>
+	<classpathentry kind="src" path="exercicios/Sockets_UDP_Exemplo"/>
+	<classpathentry kind="src" path="exercicios/SocketTCP"/>
+	<classpathentry kind="src" path="MultiClientServer/src"/>
+	<classpathentry kind="output" path="Client/build/classes"/>
+</classpath>
